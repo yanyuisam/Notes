@@ -15,9 +15,11 @@
      limitations under the License.
 -->
 
+<?xml version="1.0" encoding="utf-8"?>
 <EditText
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/et_foler_name"
+    android:id="@+id/et_folder_name"
     android:layout_width="fill_parent"
-    android:hint="@string/hint_foler_name"
-    android:layout_height="fill_parent" />
+    android:layout_height="fill_parent"
+    android:hint="@string/hint_folder_name"
+    android:textColor="@color/user_query_highlight" /> <!-- Added text color -->
